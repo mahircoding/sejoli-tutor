@@ -1,0 +1,121 @@
+.sejoli-tutor-enroll-btn {
+    background: transparent !important;
+    color: var(--tutor-primary-button-color) !important;
+}
+
+.sejoli-tutor-course-purchase-btn {
+    position: relative;
+}
+
+
+.sejoli-tutor-course-purchase-btn::before {
+    content: '\e915';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    font-family: "tutor" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    left: 1rem;
+}
+
+.my-tutor-course-dashboard {
+    
+}
+
+.my-tutor-course-dashboard a {
+    color: rgb(27, 82, 170);
+}
+
+article.my-course {
+    display: flex;
+    flex-wrap: nowrap;
+    margin:  0 0 24px 0;
+}
+
+article.my-course .thumbnail {
+    width:  150px;
+}
+
+article.my-course img {
+    max-width: 100%;
+}
+article.my-course .body {
+    padding:  1rem 0 0 1rem;
+    flex-grow: 1;
+}
+article.my-course a {
+    color:  #333333;
+}
+
+.my-tutor-course-dashboard .paging .pagination {
+    margin:  0;
+    padding:  0;
+    list-style: none;
+}
+.my-tutor-course-dashboard .paging .pagination li {
+    display: inline-block;
+}
+.my-tutor-course-dashboard .paging a {
+    display: block;
+    height:  32px;
+    min-width:  32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 4px;
+}
+.my-tutor-course-dashboard .paging .pagination .active a {
+    color:  #ffffff;
+    background: rgb(27, 82, 170);
+}
+
+.my-courses-empty {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.my-courses-empty .message {
+    padding: 1rem 0 0 0;
+}
+
+.single-courses .tutor-single-course-sidebar .price > .active-price {
+    display: block;
+}
+.single-courses .tutor-single-course-sidebar .price > .active-strike {
+    display: block;
+    color: #a8a8a8;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.single-courses .tutor-single-course-sidebar .price > .active-strike .price {
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+}
+.single-courses .tutor-single-course-sidebar .price > .active-strike .strike-price { 
+    display: block;
+}
+.single-courses .tutor-single-course-sidebar .price > .active-strike .price::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #ff6d6d;
+    top: 11px;
+    left: 0;
+    z-index: 1;
+}
+
+.post-type-archive-courses .active-strike {
+    color: #989898;
+    font-weight: 400;
+    padding-left: 8px;
+}

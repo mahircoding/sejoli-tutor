@@ -1,0 +1,80 @@
+.sejoli-tutor-admin-group.warning {
+    color: red;
+} 
+.sejoli-tutor-admin-group.info {
+    color: #0071a1;;
+} 
+
+.sejoli-metabox .sejoli-title,
+.sejoli-metabox .sejoli-price {
+    margin-bottom: 1rem;
+}
+
+.metabox-no-sejoli-product {
+    padding: 2rem 0;
+}
+
+.metabox-no-sejoli-product .link {
+    margin-left: 1rem;
+}
+
+.toplevel_page_sejoli_tutor .notice {
+    display: none;
+}
+.toplevel_page_sejoli_tutor #update-nag {
+    display: none;
+}
+.toplevel_page_sejoli_tutor #wpbody-content .wrap {
+    margin: 0;
+}
+
+
+.toplevel_page_sejoli_tutor #wpcontent {
+    padding-left: 0;
+}
+.wrap-sejoli-tutor {
+    border: 1px solid rgba(0,0,0,0);
+    padding-top: 2rem;
+    min-height: 50vh;
+    max-width: 800px;
+    margin: auto;
+    font-size: 14px;
+}
+
+.sejoli-tutor-option-list {
+    min-height: 200px;
+}
+
+.wrap-sejoli-tutor .button-lg {
+    font-size: 14px;
+    padding: 6px 20px;
+}
+.serial-wrap.success input {
+    border-color: green;
+}
+.serial-wrap.danger input {
+    border-color: red;
+    color: red;
+}
+
+.serial-wrap.success .serial-wrap {
+    color: green;
+}
+
+.serial-wrap.danger .serial-wrap {
+    color: red;
+}
+
+.sejoli-tutor-option-field-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.sejoli-tutor-option-field-label {
+    width: 128px;
+}
+
+.sejoli-tutor-option-field {
+    flex-grow: 1;
+}
