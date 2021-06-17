@@ -1,0 +1,6 @@
+{
+    "require": {
+        "jasongrimes/paginator": "^1.0",
+        "vlucas/valitron": "^1.4"
+    }
+}
